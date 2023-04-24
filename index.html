@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rent</title>
+</head>
+<body>
+
+<header class='header'>
+    <div class="header__container">
+        <img src="./assets/img/logo.png" alt="" class="header__logo"/>
+
+        <nav class="header__nav">
+            <a href="/" class="header__link">О Нас</a>
+            <a href="/" class="header__link">Услуги</a>
+            <a href="/" class="header__link">Контакты</a>
+            <a href="/" class="header__link">Каталог</a>
+            <a href="/" class="header__link">Бот</a>
+        </nav>
+
+        <button class="header__btn login">
+        Войти
+        </button>
+
+    </div>
+</header>
+
+<section class='main'>
+    <div class="main__container">
+        <div class="main__left">
+            <h2 class="main__left-title">Найди жилье по доступной цене</h2>
+            <div class="main_form">
+                <input placeholder='Введите свой email' type="text" class="main__left-input"/>
+                <button class='main__left-input-btn'>Отправить</button>
+            </div>
+            <p class='main__left-disc'>Нажимая на кнопку вы соглашаетесь на обработку <br/> <span>персональных данных</span></p>
+        </div>
+        <div class="main__right">
+            <img class='main__right-img' src="./assets/img/main.png" alt="Title"/>
+        </div>
+    </div>
+</section>
+
+<section class="work">
+    <h2 class="work__title">Как это работает?</h2>
+    <div class="work__container">
+        <div class="work__item">
+            <div class="work__item-top">
+                <img src="./assets/icons/user.gif" alt="" class="work__item-img" />
+                <h3 class="work__item-title">Пройдите регистрацию</h3>
+            </div>
+            <p class="work__item-desc">Пройдите регистрацию и начните искать себе недвижимость либо сами начните искать покупателей</p>
+        </div>
+        <div class="work__item">
+            <div class="work__item-top">
+                <img src="./assets/icons/house.gif" alt="" class="work__item-img" />
+                <h3 class="work__item-title">Заполните данные</h3>
+            </div>
+            <p class="work__item-desc">Заполните быструю форму для подбора рекомендаций по вашим интересам и пожеланиям</p>
+        </div>
+        <div class="work__item">
+            <div class="work__item-top">
+                <img src="./assets/icons/money.gif" alt="" class="work__item-img" />
+                <h3 class="work__item-title">Ищите дом под себя</h3>
+            </div>
+            <p class="work__item-desc">Находите что вас интересует и заключайте договора с арендаталями вместе с нами</p>
+        </div>
+    </div>
+</section>
+
+<footer class='footer'>
+    <div class="footer__container">
+        <div class="footer__column-first">
+            <img src="./assets/img/logo.png" alt="" class="footer__img"/>
+            <p class="footer__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate illo quos recusandae.</p>
+        </div>
+        <div class="footer__column-second">
+            <h3 class="footer__title">Навигация</h3>
+            <a href={'/'} class="footer__link">О Нас</a>
+            <a href={'/'} class="footer__link">Услуги</a>
+            <a href={'/'} class="footer__link">Контакты</a>
+            <a href={'/'} class="footer__link">Каталог</a>
+            <a href={'/'} class="footer__link">Бот</a>
+        </div>
+        <div class="footer__column-third">
+            <h3 class="footer__title">Аренда</h3>
+            <a href={'/'} class="footer__link">Дома/Квартиры</a>
+            <a href={'/'} class="footer__link">Машины</a>
+            <a href={'/'} class="footer__link">Техника</a>
+            <a href={'/'} class="footer__link">Другое</a>
+        </div>
+        <div class="footer__column-fourth">
+            <h3 class="footer__title">Контакты</h3>
+            <address class='footer__address'>2464 Royal Ln. Mesa, New Jersey 45463</address>
+            <p class="footer__email">rent@gmail.com</p>
+            <p class="footer__email">+996(000)-00-00-00</p>
+        </div>
+    </div>
+</footer>
+
+<div class="overlay">
+   <div class="overlay__popup">
+       <img src="./assets/img/logo.png" alt="" class="overlay__img">
+       <form action="" class="overlay__form">
+           <h2 class="overlay__title">Регистрация</h2>
+           <a href="/" class="overlay__subtitle">Уже есть аккаунт?</a>
+
+           <label class="overlay__label">
+               <span class="overlay__label-text">Ваше имя и фамилия</span>
+               <input required type="text" class="overlay__input" placeholder="Имя и Фамилия">
+           </label>
+
+           <label class="overlay__label">
+               <span class="overlay__label-text">Ваш номер телефона</span>
+               <input required type="tel" class="overlay__input" placeholder="Телефон/Telegram">
+           </label>
+
+           <label class="overlay__label">
+               <span class="overlay__label-text">Ваш e-mail</span>
+               <input required type="email" class="overlay__input" placeholder="E-mail">
+           </label>
+
+           <button class="overlay__btn" type="submit">Войти</button>
+
+       </form>
+
+       <img src="./assets/icons/close.png" alt="" class="overlay__close close">
+
+   </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
